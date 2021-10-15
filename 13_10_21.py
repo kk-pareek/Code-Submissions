@@ -30,9 +30,12 @@ print('Sum of even numbers: ', sum_even)
 
 prime_num = []
 
-for i in range(n):
+for i in range(1,n):
     if (i+1)%2 != 0 and (i+1)%3 !=0:
         prime_num.append(i+1)
+    elif (i+1) ==3:
+        prime_num.append(i+1)
+    
 
 sum_prime = 0
 for prime in prime_num:
