@@ -26,15 +26,11 @@ print('Sum of even numbers: ', sum_even)
 # _________________________________________________
 # Find sum of all the prime numbers from 1 to n
 # as there is no mention if n is included or not
-# in this code I included n in sum if n is even
+# in this code I included n in sum if n is prime
 
 prime_num = []
 
-<<<<<<< HEAD
 for i in range(1,n):
-=======
-for i in range(2,n):
->>>>>>> d9c1bbffdb4caba2847f395e164827fe3f135002
     if (i+1)%2 != 0 and (i+1)%3 !=0:
         prime_num.append(i+1)
     elif (i+1) ==3:
