@@ -33,6 +33,8 @@ prime_num = []
 for i in range(1,n):
     if (i+1)%2 != 0 and (i+1)%3 !=0:
         prime_num.append(i+1)
+    elif (i+1) ==2:
+        prime_num.append(i+1)
     elif (i+1) ==3:
         prime_num.append(i+1)
     
